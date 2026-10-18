@@ -1,0 +1,32 @@
+[
+  {
+    "id": "case-01",
+    "jd": "Senior Backend Engineer (Payouts)\nAcme Payments · Berlin or remote (EU)\n\nAbout the role\nYou will own the services that move money from marketplaces to sellers: payout scheduling, our double-entry ledger, and bank integrations.\n\nWhat you'll do\n- Design and build reliable, idempotent payout APIs in Go\n- Evolve our PostgreSQL ledger schema and keep it correct under concurrency\n- Mentor junior engineers through code review and pairing\n- Write clear design docs and share them asynchronously\n\nRequirements\n- 5+ years building backend services in production\n- Strong Go or Java experience\n- Deep knowledge of PostgreSQL, including transactions and isolation levels\n- Experience designing distributed systems that handle failures gracefully\n- Excellent written communication\n\nNice to have\n- Experience in payments or fintech\n- Kafka or another event streaming platform\n- Familiarity with PCI DSS is a plus",
+    "company_url": "http://localhost:8099/acme/",
+    "days": 5
+  },
+  {
+    "id": "case-02",
+    "jd": "Full-Stack Developer at QuietCo\n\nWe build point-of-sale and inventory software for independent bookshops.\n\nYou have:\n- 2+ years with React and TypeScript\n- Experience building REST APIs with Node.js\n- Comfortable talking directly with shop owners to understand their problems\n\nBonus points for:\n- Experience with offline-first apps\n- Retail or point-of-sale domain knowledge",
+    "company_url": "http://localhost:8099/quietco/",
+    "days": 3
+  },
+  {
+    "id": "case-03",
+    "jd": "Backend Engineer at Tiny Labs.\nPython.",
+    "company_url": "http://localhost:8099/tiny/",
+    "days": 1
+  },
+  {
+    "id": "case-04",
+    "jd": "Data Engineer\n\nRequirements:\n- Strong SQL\n- Experience with Airflow or Dagster\n- Python for data pipelines\n\nNice to have:\n- dbt",
+    "company_url": "http://localhost:8099/gone/",
+    "days": 60
+  },
+  {
+    "id": "case-05",
+    "jd": "Product Engineer\n\nWe're looking for engineers who ship fast and talk to users.\n\nRequirements\n- Strong experience with React and Python/Django\n- You have shipped features end to end, from talking to users to monitoring in production\n- Self-directed: you work well without a manager telling you what to do\n\nNice to have\n- ClickHouse experience\n- You've founded a startup before",
+    "company_url": "https://posthog.com/",
+    "days": 7
+  }
+]
