@@ -5,7 +5,12 @@ import type { NextConfig } from "next";
  * API, so the session cookie is first-party (no third-party-cookie problems when
  * the API is deployed on a different host).
  */
-const API_URL = process.env.API_URL ?? "http://localhost:4000";
+// Tolerate common formatting slips in the env value: spaces, quotes, a trailing "/" or "/api".
+const API_URL = (process.env.API_URL || "http://localhost:4000")
+  .trim()
+  .replace(/^["']|["']$/g, "")
+  .replace(/\/+$/, "")
+  .replace(/\/api$/, "");
 
 const nextConfig: NextConfig = {
   devIndicators: false,
