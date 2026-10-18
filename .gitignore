@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.next/
+.env
+*.log
+kits.json
+._*
+.DS_Store
+
+# assessment brief (not ours to publish)
+software-engineer-assignment.pdf

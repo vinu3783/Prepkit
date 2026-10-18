@@ -1,0 +1,20 @@
+{
+  "name": "trao-interview-prep-kit",
+  "private": true,
+  "workspaces": [
+    "server",
+    "web"
+  ],
+  "scripts": {
+    "evaluate": "tsx server/src/scripts/evaluate.ts",
+    "mock-sites": "tsx server/src/scripts/mockSites.ts",
+    "test": "npm test -w server",
+    "typecheck": "npm run typecheck -w server",
+    "dev:api": "npm run dev -w server",
+    "dev:web": "npm run dev -w web",
+    "build": "npm run build -w web"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
