@@ -1,0 +1,28 @@
+# Render blueprint for the API (free web service). The web app deploys to Vercel.
+services:
+  - type: web
+    name: prepkit-api
+    runtime: node
+    plan: free
+    buildCommand: npm ci --workspace server --include-workspace-root
+    startCommand: npm run start -w server
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NODE_VERSION
+        value: "22"
+      - key: MONGODB_URI
+        sync: false
+      - key: GROQ_API_KEY
+        sync: false
+      - key: GROQ_MODEL
+        value: openai/gpt-oss-120b
+      - key: GROQ_OVERFLOW_MODELS
+        value: openai/gpt-oss-20b
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GEMINI_MODEL
+        value: gemini-3.5-flash-lite
+      - key: MAX_CONCURRENT_GENERATIONS
+        value: "2"
