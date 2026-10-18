@@ -2,6 +2,7 @@
 
 Paste a job description, give the company's website and the number of days until the interview. PrepKit crawls the company site for what the company does and how it hires, searches public discussion of its interview process, and builds a structured kit: company brief, role breakdown, a categorised question bank, flashcards and a day-by-day schedule. You can then reshape any part of it, regenerate single sections without losing your edits, and practise against it.
 
+- **Demo video:** [Walkthrough on Loom](https://www.loom.com/share/49a0e673692b425db54e559205e72c15)
 - **Live app:** `<deployment URL>`, API health at `<api URL>/api/health`
 - **Batch entry point:** `npm run evaluate -- --input <cases.json> --output <kits.json>`
 
